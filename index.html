@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berimbolo Security solution system</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top opacity-75" id="navbar" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" height="50" alt="Berimbolo Security"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#plans">Price Plans</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#blog">Blog</a></li>
+                            <li><a class="dropdown-item" href="#product">Products</a></li>
+                            <li><a class="dropdown-item" href="#about">About</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div><!-- carousel-indicators -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/carousel1.jpg" class="d-block w-100" width="640" height="930" alt="CCTV1">
+                <div class="carousel-caption header-text d-none d-md-block">
+                    <h5 class="mb-3 wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="1s">BEST SECURITY SERVICES
+                    </h5>
+                    <p class="display-3 fw-bold mb-5 wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="1.5s">Safe
+                        & Secure Home For Your Family</p>
+                    <a href="#about" class="btn btn-info btn-lg me-3 wow bounceInLeft" data-wow-duration="1.2s"
+                        data-wow-delay="2s">Read More</a>
+                    <a href="#contact" class="btn btn-danger btn-lg wow bounceInRight" data-wow-duration="1.2s"
+                        data-wow-delay="2.5s">Contact Us</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousel2.jpg" class="d-block w-100" width="640" height="930" alt="CCTV2">
+                <div class="carousel-caption header-text d-none d-md-block">
+                    <h5 class="mb-3 wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="1s">Your Trusted
+                        Surveillance Partner</h5>
+                    <p class="display-3 fw-bold mb-5 wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="1.5s">Our
+                        CCTV systems provide unparalleled security for homes</p>
+                    <a href="#about" class="btn btn-info btn-lg me-3 wow bounceInLeft" data-wow-duration="1.2s"
+                        data-wow-delay="2s">Read More</a>
+                    <a href="#contact" class="btn btn-danger btn-lg wow bounceInRight" data-wow-duration="1.2s"
+                        data-wow-delay="2.5s">Contact Us</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousel3.jpg" class="d-block w-100" width="640" height="930" alt="CCTV3">
+                <div class="carousel-caption header-text d-none d-md-block">
+                    <h5 class="mb-3 wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="1s">Your Watchful Eye on
+                        Security</h5>
+                    <p class="display-3 fw-bold mb-5 wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="1.5s">Our
+                        range of CCTV systems ensures 24/7 surveillance</p>
+                    <a href="#about" class="btn btn-info btn-lg me-3 wow bounceInLeft" data-wow-duration="1.2s"
+                        data-wow-delay="2s">Read More</a>
+                    <a href="#contact" class="btn btn-danger btn-lg wow bounceInRight" data-wow-duration="1.2s"
+                        data-wow-delay="2.5s">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </header><!-- carousel -->
+
+    <!-- Start About -->
+    <section class="py-5" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/about.png" alt="company" class="w-100 wow rotateInUpRight" data-wow-duration="1.2s"
+                        data-wow-delay="4.5s">
+                </div><!-- left -->
+                <div class="col-md-8">
+                    <h5 class="text-primary wow bounce" data-wow-duration="1.2s" data-wow-delay="1s">ABOUT US</h5>
+                    <h3 class="display-4 fw-bold wow fadeInRight" data-wow-duration="1.2s" data-wow-delay="1.5s">We
+                        Offers Quality CCTV <br> Systems & Services</h3>
+                    <p class="lead my-3 fw-medium text-secondary wow bounceInRight" data-wow-duration="1.2s"
+                        data-wow-delay="2.5s">
+                        At Berimbolo Security Solutions, we are committed to safeguarding what matters most to you.
+                        As a trusted provider of comprehensive security solutions,
+                        we offer state-of-the-art systems tailored to meet the unique needs of homeowners and small
+                        businesses
+                    </p>
+                    <p class="wow bounceInRight" data-wow-duration="1.2s" data-wow-delay="3s">Whether it’s smart
+                        surveillance cameras, access control, or alarm systems, we prioritize your
+                        safety and peace of mind. Choose SecureGuard Solutions for reliable protection you can count on.
+                    </p>
+                    <div class="d-flex justify-content-center ">
+                        <div class=" bg-primary p-3 text-white border-bottom border-danger border-3 text-center me-3 w-50 mt-4 wow animate__lightSpeedInLeft"
+                            data-wow-duration="1.2s" data-wow-delay="3.5s">
+                            <i class="fa-solid fa-star fa-3x mb-2"></i>
+                            <h6>15 Years Experience</h6>
+                        </div>
+
+                        <div class="bg-danger p-3 text-white border-bottom border-primary border-3 text-center w-50 mt-4 wow animate__lightSpeedInRight"
+                            data-wow-duration="1.2s" data-wow-delay="4s">
+                            <i class="fa-solid fa-medal fa-3x mb-2"></i>
+                            <h6>Award Winning</h6>
+                        </div>
+
+                    </div><!-- d-flex -->
+                </div><!-- right -->
+            </div>
+        </div><!-- container -->
+    </section>
+    <!-- End About -->
+
+    <!-- Start Services -->
+    <section class="py-5" id="services">
+        <div class="container">
+
+            <h5 class="text-primary text-center wow flash" data-wow-duration="1.2s" data-wow-delay="1s">Services</h5>
+            <h3 class="display-4 fw-bold text-center wow bounceIn" data-wow-duration="1.2s" data-wow-delay="1.5s">
+                Our Excellent CCTV <br> Security Services
+            </h3>
+            <div class="row">
+                <script>
+                    let serviceTitle = ['Sale and installation of security systems (alarms and CCTV)', "Security risk assessments", " Security system maintenance", "Repair & Service", "Monitoring", "Access Control"]
+                    let serviceParagraph = ['We specialize in professional CCTV installation for homes and small businesses',
+                        "We specialize in designing and implementing robust (CCTV) systems to your unique security needs",
+                        "Our dedicated maintenance services ensure that your surveillance infrastructure remains at its performance",
+                        "Our specialized CCTV Repair & Service ensures that your surveillance infrastructure remains reliable",
+                        "Our team ensures round-the-clock surveillance of your premises, providing real-time insights",
+                        "We seamlessly integrate CCTV with cutting-edge Access Control systems"]
+                    for (i = 0; i <= 5; i++)
+                        document.write(`
+                <div class="col-lg-4 col-md-5 col-sm-6 mb-3 ">
+                    <div class="card p-3 h-100 wow rotateIn" data-wow-duration="1.2s" data-wow-delay="${i}s" style="border-bottom: blue 3px solid ;">
+                        <img src="images/service${i}.png" class="w-50 mb-3" alt="cctv">
+                        <h5 class="text-primary">CCTV</h5>
+                        <h3 class="fw-bold">${serviceTitle[i]}</h3>
+                        <p class="mt-auto">${serviceParagraph[i]}</p>
+                        <a  style="text-decoration: none; cursor: pointer;" class="text-end" >Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div><!-- service -->
+                `)
+
+                </script>
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+    <!-- End Services -->
+
+    <!-- Start Products -->
+    <section class="py-5" id="product">
+        <div class="container">
+
+            <h5 class="text-primary text-center wow pulse" data-wow-duration="1.2s" data-wow-delay="1s">Products</h5>
+            <h3 class="display-4 fw-bold text-center wow bounceInDown" data-wow-duration="1.2s" data-wow-delay="1.5s">
+                Our Amazing Products
+            </h3>
+            <div class="row">
+                <script>
+                    const productTitle = ['GoPro CCTV', "Round camera CCTV", "HiLook CCTV", "Alarm System", "Tapo 360-degree Camera", "Fire Smoke Detector"]
+                    const productPrice = ["$20.00", "$40.00", "$50.00", "$40.00", "$30.50", "$35.20"];
+                    for (i = 0; i <= 5; i++)
+                        document.write(`
+                <div class="col-lg-4 col-md-5 col-sm-6 mb-3 ">
+                    <div class="card p-3 h-100 wow flipInY" data-wow-duration="1.2s" data-wow-delay="${i}s" style="border-bottom: blue 3px solid ;">
+                        <img src="images/product${i}.jpg" height="400px" class=" mb-3" alt="cctv">
+                        <h3 class="fw-bold">${productTitle[i]}</h3>
+                        <p class="mt-auto text-center">${productPrice[i]}</p>
+                        <a style=" cursor: pointer" class="btn btn-primary text-center" >Add to Cart</a>
+                        </div>
+                        </div><!-- products -->
+                        `)
+
+                </script>
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+    <!-- End Services -->
+    <!-- Start Price Plan -->
+    <section class="py-5" id="plans">
+        <div class="container ">
+            <h5 class="text-primary text-center wow swing" data-wow-duration="1.2s" data-wow-delay="1s">PRICE PLAN</h5>
+            <h3 class="display-4 fw-bold text-center mb-4 wow bounceInUp" data-wow-duration="1.2s"
+                data-wow-delay="1.5s">
+                Pricing Plan for CCTV <br> Security Services
+            </h3>
+            <div class="row pt-3">
+                <div class="col-md-3 col-sm-6 mb-2 ">
+                    <div class="card border-primary wow flipInX" data-wow-duration="1.2s" data-wow-delay="2s">
+                        <div class="card-header py-5 bg-primary text-white text-center">
+                            <h3 id="plan1">Basic Plan</h3>
+                            <h3 id="price1">$25 / mo</h3>
+                        </div><!-- card-header -->
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item" id="alarm1">1 x alarm system</li>
+                                <li class="list-group-item" id="cctv1">1 x CCTV camera</li>
+                                <li class="list-group-item" id="online1">Local CCTV footage storage</li>
+                                <li class="list-group-item" id="monitor1">NOT centrally monitored</li>
+                            </ul>
+                        </div><!-- card-body -->
+                        <div class="card-footer text-center">
+                            <button onclick="ordered1()" type="button" class="btn btn-primary">Order Now</button>
+                        </div><!-- card-footer -->
+                    </div><!-- card -->
+                </div><!-- plan 1 -->
+
+                <div class="col-md-3 col-sm-6 mb-2 ">
+                    <div class="card border-danger wow flipInX" data-wow-duration="1.2s" data-wow-delay="2.5s">
+                        <div class="card-header py-5 bg-danger text-white text-center">
+                            <h3 id="plan2">Standard Plan</h3>
+                            <h3 id="price2">$45 / mo</h3>
+                        </div><!-- card-header -->
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item" id="alarm2">1 x alarm system</li>
+                                <li class="list-group-item" id="cctv2">2 CCTV cameras</li>
+                                <li class="list-group-item" id="online2">Online and local CCTV footage storage</li>
+                                <li class="list-group-item" id="monitor2">NOT centrally monitored</li>
+                            </ul>
+                        </div><!-- card-body -->
+                        <div class="card-footer text-center">
+                            <button onclick="ordered2()" type="button" class="btn btn-danger">Order Now</button>
+                        </div><!-- card-footer -->
+                    </div><!-- card -->
+                </div><!-- plan 2 -->
+
+                <div class="col-md-3 col-sm-6 mb-2 ">
+                    <div class="card border-primary wow flipInX" data-wow-duration="1.2s" data-wow-delay="3s">
+                        <div class="card-header py-5 bg-primary text-white text-center">
+                            <h3 id="plan3">Extended Plan</h3>
+                            <h3 id="price3">$85 / mo</h3>
+                        </div><!-- card-header -->
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item" id="alarm3">1 x alarm system</li>
+                                <li class="list-group-item" id="cctv3">4 CCTV cameras</li>
+                                <li class="list-group-item" id="online3">Online and local CCTV footage storage</li>
+                                <li class="list-group-item" id="monitor3">Centrally monitored</li>
+                            </ul>
+                        </div><!-- card-body -->
+                        <div class="card-footer text-center">
+                            <button onclick="ordered3()" type="button" class="btn btn-primary">Order Now</button>
+                        </div><!-- card-footer -->
+                    </div><!-- card -->
+                </div><!-- plan 3 -->
+
+                <div class="col-md-3  col-sm-6 mb-2 ">
+                    <div class="card border-primary wow flipInX" data-wow-duration="1.2s" data-wow-delay="3.5s">
+                        <div class="card-header py-5 bg-primary text-white text-center">
+                            <h3>Custom Plan</h3>
+                        </div><!-- card-header -->
+                        <div class="card-body">
+                            <h4>For the Custom Plan, Contact the company to arrange an assessment and planning meeting
+                            </h4>
+                        </div><!-- card-body -->
+                        <div class="card-footer text-center">
+                            <a href="#contact" type="button" class="btn btn-primary">Contact Now</a>
+                        </div><!-- card-footer -->
+                    </div><!-- card -->
+                </div><!-- plan 4 -->
+            </div>
+        </div>
+    </section><!-- End Price Plan -->
+
+    <!-- Start Offer -->
+    <section class="container-fluid offer">
+        <div class="col-12 text-center text-white" id="offer">
+            <h5 class="mb-3 wow tada" data-wow-duration="1.2s" data-wow-delay="1s"
+                style="letter-spacing: 4px; font-weight: bold;">Special Offer</h5>
+            <h1 class="display-4 fw-bold mb-5 wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="1.5s">Save 50% On
+                All Items <br> Your First Order</h1>
+            <p class="lead my-3 fw-medium wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="2s">Are you ready to
+                enhance your security? Look no further! <br> Security
+                Services is thrilled to present an unbeatable deal for new clients</p>
+            <a href="#plans" class="btn btn-info me-3 wow bounceInLeft" data-wow-duration="1.2s"
+                data-wow-delay="2.5s">Order Now</a>
+            <a href="#about" class="btn btn-danger wow bounceInRight" data-wow-duration="1.2s" data-wow-delay="3s">Read
+                More</a>
+        </div>
+    </section><!-- End Offer -->
+
+    <!-- Start Team -->
+    <section class="py-5" id="team">
+        <div class="container ">
+            <h5 class="text-primary text-center wow wobble" data-wow-duration="1.2s" data-wow-delay="1s">TEAM MEMBERS
+            </h5>
+            <h3 class="display-4 fw-bold text-center mb-4 wow bounceInUp" data-wow-duration="1.2s"
+                data-wow-delay="1.5s">
+                Our Professional Team Members
+            </h3>
+            <div class="row pt-3">
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card bg-primary text-white text-center wow   animate__zoomInLeft"
+                        data-wow-duration="1.2s" data-wow-delay="2s">
+                        <img class="teamImg" src="images/team1.jpg" alt="team1">
+                        <h4 class="my-3">Eng Michael</h4>
+                        <h5 class="mb-3">UI/UX Designer</h5>
+                        <div class="d-flex justify-content-around pb-3">
+                            <a class="text-white" style="cursor: pointer;"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+                            <a class="text-white" style="cursor: pointer;"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                            <a class="text-white" style="cursor: pointer;"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                            <a class="text-white" style="cursor: pointer;"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div><!-- card -->
+                </div><!-- member 1 -->
+
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card bg-primary text-white text-center wow animate__zoomInUp" data-wow-duration="1.2s"
+                        data-wow-delay="2.5s">
+                        <img class="teamImg" src="images/team2.jpg" alt="team2">
+                        <h4 class="my-3">Eng John</h4>
+                        <h5 class="mb-3">Mern Stack</h5>
+                        <div class="d-flex justify-content-around pb-3">
+                            <a class="text-white" style="cursor: pointer;"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+                            <a class="text-white" style="cursor: pointer;"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                            <a class="text-white" style="cursor: pointer;"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                            <a class="text-white" style="cursor: pointer;"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div><!-- card -->
+                </div><!-- member 2 -->
+
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card bg-primary text-white text-center wow animate__zoomInRight"
+                        data-wow-duration="1.2s" data-wow-delay="3s">
+                        <img class="teamImg" src="images/team3.jpg" alt="team3">
+                        <h4 class="my-3">Eng Ahmed</h4>
+                        <h5 class="mb-3">Tester</h5>
+                        <div class="d-flex justify-content-around pb-3">
+                            <a class="text-white" style="cursor: pointer;"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+                            <a class="text-white" style="cursor: pointer;"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                            <a class="text-white" style="cursor: pointer;"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                            <a class="text-white" style="cursor: pointer;"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div><!-- card -->
+                </div><!-- member 3 -->
+            </div>
+        </div>
+    </section><!-- End Team -->
+
+    <!-- Start TESTIMONIAL -->
+    <section class="py-5" id="testimonial">
+        <div class="container ">
+            <h5 class="text-primary text-center wow animate__jello" data-wow-duration="1.2s" data-wow-delay="1s">
+                TESTIMONIAL</h5>
+            <h3 class="display-4 fw-bold text-center mb-4 wow animate__backInRight" data-wow-duration="1.2s"
+                data-wow-delay="1.5s">
+                What People Say About <br> Our Services
+            </h3>
+            <div class="row pt-5">
+                <script>
+                    const feedback = ["I can’t thank Berimbolo Security's enough for their exceptional service! From the moment we engaged with them, their team demonstrated expertise.",
+                        "I can’t emphasize enough how Security's has transformed our security landscape. Their CCTV maintenance and repair team is nothing short of exceptional.",
+                        "I can’t express how impressed I am with Security's CCTV Repair & Service. Their technical expertise, and commitment to resolving the problem were outstanding."]
+                    const name = ["Sara", "Jacob", "Ayman"];
+                    const profession = ["Teacher", "Photographer", "Doctor"];
+                    for (i = 0; i <= 2; i++)
+                        document.write(`
+                        <div class="col-md-4 col-sm-6 mb-2 ">
+                            <div class="card bg-primary bg-opacity-10 text-center border-0 wow animate__flipInY" data-wow-duration="1.2s" data-wow-delay="${i}s">
+                                <img class="w-25 mx-auto rounded-circle" src="images/testimonial${i}.jpg" alt="testimonial1"
+                                style="margin-top: -40px;">
+                                <p class="my-3">${feedback[i]}</p>
+                                <h4 class="mb-3">${name[i]}</h4>
+                                <h5 class="mb-3 text-secondary">${profession[i]}</h5>
+                            </div><!-- card -->
+                        </div><!-- members -->
+                        `)             
+                </script>
+            </div>
+        </div>
+    </section><!-- End TESTIMONIAL -->
+
+    <!-- Start BLOG -->
+    <section class="py-5" id="blog">
+        <div class="container">
+            <h5 class="text-primary text-center wow animate__heartBeat" data-wow-duration="1.2s" data-wow-delay="1s">
+                BLOG POST</h5>
+            <h3 class="display-4 fw-bold text-center mb-4 wow fadeInRightBig" data-wow-duration="1.2s"
+                data-wow-delay="1.5s">Latest Articles From Our <br> Blog Post</h3>
+            <div class="row pt-5">
+                <script>
+                    const blogTitle = ["Admin | Installing a CCTV camera", "Admin | Installing an Alarm System"];
+                    const blogParagraph = ["Security: A Step-by-Step Journey of Installing CCTV for Home Safety",
+                        "Ringing in Safety: A Personal Tale of Installing an Alarm System"];
+                    for (i = 0; i <= 1; i++)
+                        document.write(`<div class="col-md-6 mb-3">
+                            <div class="card ms-4 wow animate__zoomIn" data-wow-duration="1.2s" data-wow-delay="${i}s" >
+                                <img src="images/blog${i}.jpg" class="card-img-top"height="500px" alt="blog${i}">
+                                <span class="position-absolute top-50 start-0 translate-middle-y p-2 bg-info border border-light">
+                                <span class="badge">01 <br> Jan</span>
+                                </span>
+                                <div class="card-body bg-primary">
+                                    <h4 class="card-title pt-3 px-3 text-white">${blogTitle[i]}</h4>
+                                    <p class="card-text pb-3 px-3 text-white">${blogParagraph[i]}</p>
+                                </div>
+                            </div><!-- Card -->
+                        </div>`)
+                </script>
+            </div>
+        </div>
+    </section><!-- End BLOG -->
+
+    <!-- Start CONTACT -->
+    <section class="py-5" id="contact">
+        <div class="container ">
+            <h5 class="text-primary text-center wow animate__rubberBand" data-wow-duration="1.2s" data-wow-delay="1s">
+                Contact</h5>
+            <h3 class="display-5 fw-bold text-center mb-4 wow animate__jackInTheBox" data-wow-duration="1.2s"
+                data-wow-delay="1.5s">
+                Write your message <br> Contact Us
+            </h3>
+            <div class="row">
+                <div class="col-md-8" id="registration-form">
+                    <form method="post">
+                        <div class="input-group mb-3 wow bounceInLeft" data-wow-duration="1.2s" data-wow-delay="2s">
+                            <span class="input-group-text text-primary"><i class="fa-solid fa-user"></i></span>
+                            <input type="text" class="form-control form-control-lg" id="name" placeholder="Your Name">
+                        </div><!-- name -->
+                        <div class="input-group mb-3 wow bounceInLeft" data-wow-duration="1.2s" data-wow-delay="2.5s">
+                            <span class="input-group-text text-primary"><i class="fa-solid fa-envelope"></i></span>
+                            <input type="email" class="form-control form-control-lg" id="email"
+                                placeholder="Your Email">
+                        </div><!-- email -->
+                        <div class="input-group mb-3 wow bounceInLeft" data-wow-duration="1.2s" data-wow-delay="3s">
+                            <span class="input-group-text text-primary"><i class="fa-solid fa-message"></i></span>
+                            <textarea name="email" placeholder="Your Message" id="message"
+                                class="form-control form-control-lg" rows="3"></textarea>
+                        </div><!-- message -->
+                        <div class="input-group mb-3 wow bounceInLeft" data-wow-duration="1.2s" data-wow-delay="3.5s">
+                            <button type="submit" onclick="validateRegistrationForm"
+                                class="btn btn-primary btn-lg w-100 mx-auto">Send</button>
+                        </div><!-- submit -->
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/contact.jpg" alt="contact" class="w-100 wow bounceInRight" data-wow-duration="1.2s"
+                        data-wow-delay="4s">
+                </div>
+            </div>
+        </div><!-- container -->
+    </section><!-- END CONTACT -->
+
+    <footer class="container py-3 bg-dark text-white wow fadeIn">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="mb-4">Berimbolo Security</h3>
+                <p>We stay ahead of the curve, integrating the latest advancements in security technology.</p>
+                <div class="d-flex justify-content-evenly ">
+                    <a style="cursor: pointer;" style="color: white; "><i
+                            class="rounded-circle p-2 border fa-brands fa-github "></i></a>
+                    <a style="cursor: pointer;" style="color: white; "><i
+                            class="rounded-circle p-2 border fa-brands fa-linkedin-in "></i></a>
+                    <a style="cursor: pointer;" style="color: white; "><i
+                            class="rounded-circle p-2 border fa-brands fa-pinterest-p "></i></a>
+                    <a style="cursor: pointer;" style="color: white; "><i
+                            class="rounded-circle p-2 border fa-brands fa-x-twitter "></i></a>
+                    <a style="cursor: pointer;" style="color: white; "><i
+                            class="rounded-circle p-2 border fa-brands fa-facebook-f "></i></a>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <h3 class="mb-4">Menu</h3>
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-5 mb-2">
+                            <a href="#" class="text-white">Home</a>
+                        </div>
+                        <div class="col-md-7 mb-2">
+                            <a href="#services" class="text-white">Services</a>
+                        </div>
+                    </div><!-- row -->
+                    <div class="row">
+                        <div class="col-md-5 mb-2">
+                            <a href="#plans" class="text-white">Price Plans</a>
+                        </div>
+                        <div class="col-md-7 mb-2">
+                            <a href="#blog" class="text-white">Blogs</a>
+                        </div>
+                    </div><!-- row -->
+                    <div class="row">
+                        <div class="col-md-5 mb-2">
+                            <a href="#about" class="text-white">About</a>
+                        </div>
+                        <div class="col-md-7 mb-2">
+                            <a href="#team" class="text-white">Team</a>
+                        </div>
+                    </div><!-- row -->
+                    <div class="row">
+                        <div class="col-md-5 mb-2">
+                            <a href="#contact" class="text-white">Contact</a>
+                        </div>
+                        <div class="col-md-7 mb-2">
+                            <a href="#product" class="text-white">Products</a>
+                        </div>
+                    </div><!-- row -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3>Contacts</h3>
+                <h5 class="text-primary my-4">+876 876 654</h5>
+                <p>454 New Seard St.Antony, Toranto</p>
+                <a style="cursor: pointer;" class="text-white">sales@berimbolo.com</a>
+            </div>
+        </div><!-- row -->
+    </footer>
+    <p class="text-center my-4 wow bounce">2024 &copy All Rights Reserved I Designed and Developed by berimbolo.com</p>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        // Validate Contact Form
+        function validateRegistrationForm(name, email) {
+            const isNameValid = name.length >= 5;
+            const isEmailValid = email.includes('@');
+            return isNameValid && isEmailValid;
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+            const registrationForm = document.getElementById('registration-form');
+            registrationForm.addEventListener('submit', function (event) {
+                event.preventDefault();
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+                const isValid = validateRegistrationForm(name, email);
+                if (isValid) {
+                    console.log(`Registration form is valid: 
+Name: ${name},
+Email: ${email},
+Message: ${message}`);
+                    window.alert(`Registration form is valid: 
+Name: ${name},
+Email: ${email},
+Message: ${message}`);
+                    
+                } else {
+                    console.error('Registration form is not valid.');
+                }
+            });
+        });
+        // Ordering a plan
+        var plan1 = document.getElementById("plan1").innerHTML
+        var price1 = document.getElementById("price1").innerHTML
+        var plan2 = document.getElementById("plan2").innerHTML
+        var price2 = document.getElementById("price2").innerHTML
+        var plan3 = document.getElementById("plan3").innerHTML
+        var price3 = document.getElementById("price3").innerHTML
+
+        function ordered1() {
+            console.log(`Plan Ordered: ${plan1}, \n Its Price: ${price1}`);
+            window.alert(`Plan Ordered: ${plan1}, \n Its Price: ${price1}`);
+        }
+
+        function ordered2() {
+            console.log(`Plan Ordered: ${plan2}, \n Its Price: ${price2}`);
+            window.alert(`Plan Ordered: ${plan2}, \n Its Price: ${price2}`);
+        }
+
+        function ordered3() {
+            console.log(`Plan Ordered: ${plan3}, \n Its Price: ${price3}`);
+            window.alert(`Plan Ordered: ${plan3}, \n Its Price: ${price3}`);
+        }
+    </script>
+
+</body>
+
+</html>
